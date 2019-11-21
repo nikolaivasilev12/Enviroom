@@ -4,3 +4,5 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+        .nav li a{
+        color: white; }
