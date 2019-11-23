@@ -44,3 +44,28 @@ display: none;
    left: 0; 
    width: 100%; 
 }
+#header {
+    float: left;
+    margin-top: 35vh!important;
+}
+@media only screen and (min-width: 768px) {
+    /* desktop */
+#header {
+    margin-top: 350px;
+}
+#offers{
+    margin-top: -70px;
+    height: 100vh!important;
+}
+}
+@media only screen and (max-width: 768px) {
+#header {
+    margin-top: 50px!important;
+}
+.pl-5 {
+    padding: 0 0 0px 10px !important;
+}
+.text {
+  margin-top: -50px !important;
+}
+}
