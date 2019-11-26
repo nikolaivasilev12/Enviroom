@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    height: 100%;
+  }
+body{
+    /* background-image: url(assets/about_us.jpg)!important; */
+    background-image: url(Assets/Home_background.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.nav li a{
+color: white; 
+}
+
+#logo{
+max-height: 50px;
+max-width: 100%;
+}
+
+
+#back_1{
+    background-color: bisque;
+}

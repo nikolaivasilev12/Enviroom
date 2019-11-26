@@ -30,7 +30,7 @@ display: none;
 }
 ::-moz-scrollbar {
     display: none;
-    }
+}
 
 .image { 
    position: relative; 
