@@ -46,12 +46,7 @@ display: none;
 }
 #header {
     float: left;
-    margin-top: 35vh!important;
-}
-@media only screen and (min-width: 768px) {
-    /* desktop */
-#header {
-    margin-top: 350px;
+    margin-top: 40vh!important;
 }
 #offers{
     margin-top: -70px;
@@ -61,6 +56,9 @@ display: none;
 nav {
     z-index: 2;
 }
+@media only screen and (min-width: 768px) {
+    /* desktop */
+
 }
 @media only screen and (max-width: 768px) {
 #header {
@@ -72,4 +70,16 @@ nav {
 .text {
   margin-top: -50px !important;
 }
+#offers{
+    margin-top: 100px!important;
+    height: 99vh!important; 
+    z-index: 0;
+}
+nav {
+    z-index: 2;
+}
+body {
+   
+}
+
 }
