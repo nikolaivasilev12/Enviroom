@@ -44,7 +44,7 @@ body, html {
     margin-top: 70px;
 }
 #second {
-    
+    padding: 10px 0 10px 0;
     background-color: white;
     color: black;
     font-family: 'Raleway', sans-serif;
@@ -83,10 +83,16 @@ font-size: 55px;
 
 }
 
-footer{
-  
-
-    
+#third{ background-color: #dddddd;
+      
+        color: black;
+       font-family: 'Raleway', sans-serif;
+       line-height: 2;
+    padding: 0 0 30px 0;
 }
+
+.carousel-inner img{
+    filter: brightness(60%);
+    }
 
 
