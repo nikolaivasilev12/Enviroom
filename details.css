@@ -75,7 +75,7 @@ nav{
 }
 
 #slogan{
-margin-top: 27vh;
+margin-top: 38vh;
 font-size: 55px; 
 }
 #second img {
@@ -84,11 +84,11 @@ font-size: 55px;
 #third h1 {
     margin-top:70px;
 }
-#third{ background-color: #dddddd;
-      
-        color: black;
-       font-family: 'Raleway', sans-serif;
-       line-height: 2;
+#third{ 
+    background-color: #dddddd;  
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
     padding: 0 0 30px 0;
 }
 
@@ -97,5 +97,32 @@ font-size: 55px;
     }
 #carousel {
     margin-bottom: 60px;
+}
+.availability {
+    width: 100px;
+    height: 60px;
+    background-color:rgb(43, 167, 29);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+}
+.availability p {
+    margin-top: 5px;
+}
+.unavailable {
+    width: 300px;
+    height: 60px;
+    background-color:rgb(167, 34, 29);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+}
+.unavailable p {
+    margin-top: 5px;
+}
+@media only screen and (max-width: 768px) {
+    #slogan {
+        margin-top: 25vh;
+    }
 }
 
