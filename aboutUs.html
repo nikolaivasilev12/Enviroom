@@ -8,6 +8,7 @@
     <title>Enviroom</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="aboutUsStyle.css">
+    <link rel="stylesheet" href="scss.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/eeab8034c6.js" crossorigin="anonymous"></script>
 </head>
@@ -29,6 +30,7 @@
                 </ul>
             </div>
         </nav>
+
     </header>
     <main>
         <section id="first">
@@ -52,8 +54,25 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <button type="button" class="btn btn-success mt-3" >Gotta click</button>
+                   
+                
+
+            <!-- Button -->
+                <div class="wrapper">
+                    <a class="button" href="#">Hover me!</a>
                 </div>
+                
+                <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+                <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                        <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                        </filter>
+                    </defs>
+                </svg>
+
+            </div>
             </div>
         </section>
         <section id="second">
@@ -130,3 +149,5 @@
         </div>
      </div>
     </footer>
+
+    </body>
