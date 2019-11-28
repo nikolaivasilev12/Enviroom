@@ -43,8 +43,23 @@ body{
     margin-top: 70px;
 }
 #second {
-    background-color: white;
-    color: black;
+    background-color: white;    /* background-image: url(assets/about_us.jpg)!important; */
+    background-image: url(Assets/about_us.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    /* The image used */
+
+  /* Set a specific height */
+    height: 500px;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     font-family: 'Raleway', sans-serif;
 }
 #second h1 {
